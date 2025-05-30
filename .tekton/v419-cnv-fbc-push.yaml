@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
   annotations:
-    build.appstudio.openshift.io/repo: https://github.com/openshift-cnv/cnv-fbc?rev={{revision}}
+    build.appstudio.openshift.io/repo: https://github.com/nmars/openshift-cnv_cnv-fbc?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/cnv-fbc-tenant/v419-cnv-fbc:{{revision}}
+    value: quay.io/redhat-user-workloads-stage/nmarsell-tenant/ks-v419-cnv-fbc:{{revision}}
   - name: dockerfile
     value: catalog.Dockerfile
   - name: path-context
