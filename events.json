@@ -1,0 +1,361 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "eventTime": null,
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1alpha1",
+                "kind": "Repository",
+                "name": "ks-v418-cnv-fbc-fragment",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2110022169",
+                "uid": "79e03566-bdca-41b1-98f4-51b8e04451da"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "cannot read the PipelineRun: cnv-mirrorset, error: no kind \"ImageDigestMirrorSet\" is registered for version \"operator.openshift.io/v1alpha1\" in scheme \"k8s.io/client-go/kubernetes/scheme/register.go:83\"",
+            "metadata": {
+                "annotations": {
+                    "pipelinesascode.tekton.dev/repository": "ks-v418-cnv-fbc-fragment"
+                },
+                "creationTimestamp": "2025-07-17T16:34:24Z",
+                "generateName": "ks-v418-cnv-fbc-fragment-",
+                "labels": {
+                    "pipelinesascode.tekton.dev/repository": "ks-v418-cnv-fbc-fragment"
+                },
+                "name": "ks-v418-cnv-fbc-fragment-92trb",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903194",
+                "uid": "6850d024-2149-4edf-b340-143f3edaf2bd"
+            },
+            "reason": "PipelineRunValidationErrors",
+            "reportingComponent": "",
+            "reportingInstance": "",
+            "source": {
+                "component": "Pipelines As Code"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "eventTime": null,
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1alpha1",
+                "kind": "Repository",
+                "name": "ks-v418-cnv-fbc-fragment",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2110022169",
+                "uid": "79e03566-bdca-41b1-98f4-51b8e04451da"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "cannot read the PipelineRun: cnv-mirrorset, error: no kind \"ImageDigestMirrorSet\" is registered for version \"operator.openshift.io/v1alpha1\" in scheme \"k8s.io/client-go/kubernetes/scheme/register.go:83\"",
+            "metadata": {
+                "annotations": {
+                    "pipelinesascode.tekton.dev/repository": "ks-v418-cnv-fbc-fragment"
+                },
+                "creationTimestamp": "2025-07-17T16:34:35Z",
+                "generateName": "ks-v418-cnv-fbc-fragment-",
+                "labels": {
+                    "pipelinesascode.tekton.dev/repository": "ks-v418-cnv-fbc-fragment"
+                },
+                "name": "ks-v418-cnv-fbc-fragment-ffn4h",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903513",
+                "uid": "b1aa81de-6cef-4132-a0f4-9929c31fc55c"
+            },
+            "reason": "PipelineRunValidationErrors",
+            "reportingComponent": "",
+            "reportingInstance": "",
+            "source": {
+                "component": "Pipelines As Code"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903232",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716b40ccd88",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903257",
+                "uid": "ecd38086-9575-4fc6-b0e1-751ee80eb7fc"
+            },
+            "reason": "Started",
+            "reportingComponent": "PipelineRun",
+            "reportingInstance": "",
+            "source": {
+                "component": "PipelineRun"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903232",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Created Workload: nmarsell-tenant/pipelinerun-ks-v418-cnv-fbc-fragment-on-pull-request-wd728-14eb1",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716b58ace71",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903238",
+                "uid": "4117ca2f-1a3c-41cd-bcf3-e5eebb1ab5c4"
+            },
+            "reason": "CreatedWorkload",
+            "reportingComponent": "kueue-plr",
+            "reportingInstance": "",
+            "source": {
+                "component": "kueue-plr"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903232",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Failed to update finalizers for \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\": Operation cannot be fulfilled on pipelineruns.tekton.dev \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\": the object has been modified; please apply your changes to the latest version and try again",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716b62e012a",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903259",
+                "uid": "be57af0e-70d3-4481-8747-a1f999cd5d8b"
+            },
+            "reason": "FinalizerUpdateFailed",
+            "reportingComponent": "pipelinerun-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "pipelinerun-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 6,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903232",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Failed to update finalizers for \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\": Operation cannot be fulfilled on pipelineruns.tekton.dev \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\": the object has been modified; please apply your changes to the latest version and try again",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716b6746a1f",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903268",
+                "uid": "b98e6a0b-26fc-4bcd-9698-6ef557048e4a"
+            },
+            "reason": "FinalizerUpdateFailed",
+            "reportingComponent": "pipelinerun-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "pipelinerun-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 7,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903232",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Failed to update finalizers for \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\": Operation cannot be fulfilled on pipelineruns.tekton.dev \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\": the object has been modified; please apply your changes to the latest version and try again",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716b6b2d5c2",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903276",
+                "uid": "b7a93706-3566-4a95-ad63-efd871fc5bfd"
+            },
+            "reason": "FinalizerUpdateFailed",
+            "reportingComponent": "pipelinerun-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "pipelinerun-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903263",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Updated \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\" finalizers",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716be1646af",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903264",
+                "uid": "b9b20adf-b05c-42ba-aa2d-dc296fee028e"
+            },
+            "reason": "FinalizerUpdate",
+            "reportingComponent": "pipelinerun-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "pipelinerun-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903272",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Updated \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\" finalizers",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716c308be0d",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903273",
+                "uid": "a3032991-41b5-4db4-9c2c-1f4df34fc754"
+            },
+            "reason": "FinalizerUpdate",
+            "reportingComponent": "pipelinerun-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "pipelinerun-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "PipelineRun",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903277",
+                "uid": "18c9d275-e593-4728-a0d6-f75a76310989"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T16:34:26Z",
+            "message": "Updated \"ks-v418-cnv-fbc-fragment-on-pull-request-wd728\" finalizers",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "ks-v418-cnv-fbc-fragment-on-pull-request-wd728.18531716c6d6c25f",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903278",
+                "uid": "b9148ba3-91f3-4e46-83ca-35cad4bc3301"
+            },
+            "reason": "FinalizerUpdate",
+            "reportingComponent": "pipelinerun-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "pipelinerun-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 391,
+            "eventTime": null,
+            "firstTimestamp": "2025-07-17T16:34:26Z",
+            "involvedObject": {
+                "apiVersion": "kueue.x-k8s.io/v1beta1",
+                "kind": "Workload",
+                "name": "pipelinerun-ks-v418-cnv-fbc-fragment-on-pull-request-wd728-14eb1",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2128903236",
+                "uid": "1e0990fe-ec4f-4e77-a040-cac6b7463466"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2025-07-17T18:39:36Z",
+            "message": "couldn't assign flavors to pod set pod-set-1: resource linux-x86_64 unavailable in ClusterQueue",
+            "metadata": {
+                "creationTimestamp": "2025-07-17T16:34:26Z",
+                "name": "pipelinerun-ks-v418-cnv-fbc-fragment-on-pull-request-wd728-14eb1.18531716b66ea99e",
+                "namespace": "nmarsell-tenant",
+                "resourceVersion": "2129385656",
+                "uid": "d071e2b3-5d02-4d4e-b838-79da50759372"
+            },
+            "reason": "Pending",
+            "reportingComponent": "kueue-admission",
+            "reportingInstance": "",
+            "source": {
+                "component": "kueue-admission"
+            },
+            "type": "Warning"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

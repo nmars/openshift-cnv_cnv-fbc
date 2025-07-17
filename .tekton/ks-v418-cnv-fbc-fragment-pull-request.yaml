@@ -378,14 +378,14 @@ spec:
       runAfter:
       - build-image-index
       taskRef:
+        resolver: git
         params:
-        - name: name
-          value: fbc-fips-check-oci-ta
-        - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-fbc-fips-check-oci-ta:0.1@sha256:f82b8dcfa16041d0ea5e1f57f16c53ee686fcf34348178fe639d6be399799d29
-        - name: kind
-          value: task
-        resolver: bundles
+        - name: url
+          value: https://github.com/nmars/build-definitions.git
+        - name: revision
+          value: 5ef333fe5d79256d48bc623a7287daef4edc6ad8
+        - name: pathInRepo
+          value: task/fbc-fips-check-oci-ta/0.1/fbc-fips-check-oci-ta.yaml
       when:
       - input: $(params.skip-checks)
         operator: in

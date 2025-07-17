@@ -1,8 +1,8 @@
 ---
-apiVersion: operator.openshift.io/v1alpha1
+apiVersion: config.openshift.io/v1
 kind: ImageDigestMirrorSet
 metadata:
-  name: cnv-mirrorset
+  name: ks-mirrorset
 spec:
   imageDigestMirrors:
   - mirrors:
@@ -44,9 +44,9 @@ spec:
   - mirrors:
     - brew.registry.redhat.io/container-native-virtualization/hco-bundle-registry
     source: registry.redhat.io/container-native-virtualization/hco-bundle-registry
-  - mirrors:
-    - brew.registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9
-    source: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9
+  # - mirrors:
+  #   - brew.registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9
+  #   source: registry.redhat.io/container-native-virtualization/hco-bundle-registry-rhel9
   - mirrors:
     - brew.registry.redhat.io/container-native-virtualization/hostpath-csi-driver
     source: registry.redhat.io/container-native-virtualization/hostpath-csi-driver
